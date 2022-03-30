@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*, body {
+   font-size: 16px;
+   font-family: 'Source Serif Pro', sans-serif;
+   font-style: normal;
+   color: #FFFFFF;
+}
+
+.container{
+    max-width: 1024px !important;
+}
+
+header{
+    height: 436px;
+    background: radial-gradient(57.94% 57.94% at 50% 42.06%, rgba(29, 53, 35, 0.83) 0%, #1D3523 100%);
+}
+
+header .row:nth-child(1){
+    position: relative;
+    top: 7px;
+}
+
+.brand-logo{
+    width: 59px;
+    height: 59px;
+    opacity: 0.9;
+    margin-right: 18px;
+}
+
+.brand-name{
+    font-family: 'Source Serif Pro';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.communication span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.communication span:nth-child(1){
+    margin-right: 16px;
+}
+
+.header_link-icons img{
+    margin-left: 24px;
+    height: 14px;
+    width: 14px;
+}
+
+
+/* NAVBAR */
+
+.navigation ul{
+    list-style: none;
+    width: 100%;
+}
+
+.navigation ul .nav-item-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.information-for-people{
+    position: relative;
+    top: 62px;
+}
+
+.information-for-people .myColumn{
+    min-width: 320px;
+    max-width: 330px;
+}
+
+.information-for-people .col-4:last-child{
+    display: contents;
+}
+
+.information-for-people .header-text{
+    width: 320px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.information-for-people .information-btn-link{
+    width: 177px;
+    height: 41px;
+    margin-top: 16px;
+    border: 2px solid #A06B39;
+    /* border-image-source: linear-gradient(90deg, #A06B39 0%, #D8A57B 100%); */
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #D8A57B;
+}
+
+.information-for-people > div:nth-child(3) > div > a{
+    margin-top: 41px;
+}
+.information-for-people div.pr-0.col-4 > a{
+    position: relative;
+    top: 23px;
+}
+
+.online-services{
+    position: relative;
+    top: 122px;
+}
+
+.online-services .col-4:last-child{
+    display: contents;
+}
+
+.online-services .card{
+    padding: 24px 24px 17px 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    width: 320px;
+    height: 253px;
+}
+
+.online-services .card-header-text p{
+    word-break:keep-all;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.online-services .card-content .select-form{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #7B7B7B;
+    background: #FFFFFF;
+    width: 100%;
+    padding: 8px 1px 8px 16px;
+    border: 1px solid #B6D5C6;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.online-services .card-content .select-form:focus{
+    outline: 1px solid ;
+}
+
+.online-services .card-content .service-input-place{
+    margin-top: 16px;
+}   
+
+.online-services .card-content .service-input-place input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #7B7B7B;
+    background: #FFFFFF;
+    width: 100%;
+    padding: 8px 1px 8px 16px;
+    border: 1px solid #B6D5C6;
+    box-sizing: border-box;
+    border-radius: 2px;
+}  
+
+.online-services .card-content .service-input-place input:focus{
+    outline: 1px solid ;
+}
+
+.online-services .card-content .service-btn{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-top: 16px;
+    border: none;
+    background: #63a08100;
+    border-radius: 4px;
+    outline: 2px solid #B6D5C6;
+    width: 100%;
+    padding: 11.71px;
+    color: #63A082;
+    transition: .3s;
+}
+
+.online-services .card-content .service-btn:hover{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-top: 16px;
+    background: #63A082;
+    color: #FFFFFF;
+    border-radius: 4px;
+    outline: 2px solid #B6D5C6;
+    width: 100%;
+    padding: 11.71px;
+}
