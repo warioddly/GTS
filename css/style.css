@@ -117,9 +117,9 @@ header .row:nth-child(1){
 .information-for-people > div:nth-child(3) > div > a{
     margin-top: 41px;
 }
+
 .information-for-people div.pr-0.col-4 > a{
     position: relative;
-    top: 23px;
 }
 
 .online-services{
@@ -472,6 +472,7 @@ header .row:nth-child(1){
 }
 
 .goverment-links-slider .owl-dot{
+    display: flex !important;
     outline: none;
 }
 
@@ -523,4 +524,11 @@ header .row:nth-child(1){
     font-size: 16px;
     line-height: 24px;
     color: #7B7B7B;
+}
+
+
+.custom-control{
+    margin-top: 50px;
+    height: 655px;
+    background: radial-gradient(73.24% 73.24% at 50% 50%, #1D374D 0%, #061A2B 100%);
 }
