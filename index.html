@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="dist/css/owl.carousel.css">
     <link rel="stylesheet" href="dist/css/owl.theme.default.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Document</title>
 </head>
 <body>
 
     <header>
+        <div class="header-background"></div>
         <div class="container">
             <div class="row banner">
                 <div class="p-0 col-7 brand d-flex align-items-center">
@@ -61,73 +61,75 @@
                     </div>
                  </div>
             </div>
-            <div class="row online-services d-flex justify-content-between">
-                <div class="col-4 p-0">
-                    <div class="card">
-                        <div class="card-header-text">
-                            <p>Калькулятор для расчета таможенных платежей транспортных средств</p>
-                        </div>
-                        <div class="card-content">
-                            <form action="#" method="POST">
-                                <div class="select">
-                                    <select name="" id="" class="select-form">
-                                        <option value="" class="option-form" selected disabled>Год выпуска</option>
-                                    </select>
-                                </div>
-                                <div class="service-input-place d-flex">
-                                    <input class="mr-3" type="text" name="" required placeholder="Стоимость">
-                                    <input type="text" name="" required placeholder="Объем">
-                                </div>
-                                <button type="submit" class="service-btn">Рассчитать</button>
-                            </form>
+            <div class="row online-services">
+                <div class="row justify-content-between">
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header-text">
+                                <p>Калькулятор для расчета таможенных платежей транспортных средств</p>
+                            </div>
+                            <div class="card-content">
+                                <form action="#" method="POST">
+                                    <div class="select">
+                                        <select name="" id="" class="select-form">
+                                            <option value="" class="option-form" selected disabled>Год выпуска</option>
+                                        </select>
+                                    </div>
+                                    <div class="service-input-place d-flex">
+                                        <input class="mr-3" type="text" name="" required placeholder="Стоимость">
+                                        <input type="text" name="" required placeholder="Объем">
+                                    </div>
+                                    <button type="submit" class="service-btn">Рассчитать</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4 pl-0">
-                    <div class="card">
-                        <div class="card-header-text">
-                            <p>Онлайн обращение</p>
-                        </div>
-                        <div class="card-content">
-                            <form action="#" method="POST">
-                                <div class="service-input-place">
-                                    <input class="mr-3" type="text" name="" required placeholder="Тема обращение">
-                                    <input class="mt-3" type="text" name="" required placeholder="ФИО">
-                                </div>
-                                <button type="submit" class="service-btn">Задать вопрос</button>
-                            </form>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header-text">
+                                <p>Онлайн обращение</p>
+                            </div>
+                            <div class="card-content">
+                                <form action="#" method="POST">
+                                    <div class="service-input-place">
+                                        <input class="mr-3" type="text" name="" required placeholder="Тема обращение">
+                                        <input class="mt-3" type="text" name="" required placeholder="ФИО">
+                                    </div>
+                                    <button type="submit" class="service-btn">Задать вопрос</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4 pr-0">
-                    <div class="card">
-                        <div class="card-header-text">
-                            <p>Предварительное информирование</p>
-                        </div>
-                        <div class="card-content">
-                            <form action="#" method="POST">
-                                <div class="service-input-place">
-                                    <div class="survey__checkbox good">
-                                        <label class="checkboxes d-flex">
-                                            <input type="checkbox" class="custom-checkbox" name="auto" id="Auto" onclick="">
-                                            <label for="Auto">Автодорожный транспорт</label>
-                                        </label>
+                    <div class="col-4">
+                        <div class="card">
+                            <div class="card-header-text">
+                                <p>Предварительное информирование</p>
+                            </div>
+                            <div class="card-content">
+                                <form action="#" method="POST">
+                                    <div class="service-input-place">
+                                        <div class="survey__checkbox good">
+                                            <label class="checkboxes d-flex">
+                                                <input type="checkbox" class="custom-checkbox" name="auto" id="Auto" onclick="">
+                                                <label for="Auto">Автодорожный транспорт</label>
+                                            </label>
+                                        </div>
+                                        <div class="survey__checkbox ">
+                                            <label class="checkboxes d-flex">
+                                                <input type="checkbox" class="custom-checkbox" name="railway" id="Railway" onclick="">
+                                                <label for="Railway">Железнодорожный транспорт</label>
+                                            </label>
+                                        </div>
+                                        <div class="survey__checkbox ">
+                                            <label class="checkboxes d-flex">
+                                                <input type="checkbox" class="custom-checkbox" name="air" id="air" onclick="">
+                                                <label for="air">Воздушный транспорт</label>
+                                            </label>
+                                        </div>
                                     </div>
-                                    <div class="survey__checkbox ">
-                                        <label class="checkboxes d-flex">
-                                            <input type="checkbox" class="custom-checkbox" name="railway" id="Railway" onclick="">
-                                            <label for="Railway">Железнодорожный транспорт</label>
-                                        </label>
-                                    </div>
-                                    <div class="survey__checkbox ">
-                                        <label class="checkboxes d-flex">
-                                            <input type="checkbox" class="custom-checkbox" name="air" id="air" onclick="">
-                                            <label for="air">Воздушный транспорт</label>
-                                        </label>
-                                    </div>
-                                </div>
-                                <button type="submit" class="service-btn">Получить информацию</button>
-                            </form>
+                                    <button type="submit" class="service-btn">Получить информацию</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -137,21 +139,66 @@
 
     <main>
         <div class="container">
-            <div class="row">
-                <div class="col p-0 block-header-text">
-                    <span>Новости сайта</span>
+            <div class="row news-content">
+                <div class="col p-0 ">
+                    <span class="head-text">Новости сайта</span>
                     <div class="news-slider">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item"><h4>1</h4></div>
-                            <div class="item"><h4>2</h4></div>
-                            <div class="item"><h4>3</h4></div>
-                            <div class="item"><h4>4</h4></div>
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <a href="#">
+                                    <div class="new-content">
+                                        <p class="new-date">22.03.2022</p>
+                                        <img src="images/news/1.png" alt="" class="new-img">
+                                        <span class="new-description">Сотрудники таможни «Манас» выявили факт нарушения таможенного законодательства.</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <div class="new-content">
+                                        <p class="new-date">22.03.2022</p>
+                                        <img src="images/news/2.png" alt="" class="new-img">
+                                        <span class="new-description">Сотрудники таможни «Манас» выявили факт нарушения таможенного законодательства.</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row announcement-content">
+                <div class="row">
+                    <div class="col">
+                        <span class="head-text">Объявление</span>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between mt-4">
+                    <div class="col-4">
+                        <div class="announcement-card">
+                            <h5 class="announcement-date">26-апр</h5>
+                            <p class="announcement-description">В ГТС при МЭФ КР состоялось торжественное собрание в честь 30-летия независимости страны</p>
+                            <a href="#" class="announcement-link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="announcement-card">
+                            <h5 class="announcement-date">03-апр</h5>
+                            <p class="announcement-description">В ГТС при МЭФ КР состоялось торжественное собрание в честь 30-летия независимости страны</p>
+                            <a href="#" class="announcement-link">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="announcement-card">
+                            <h5 class="announcement-date">11-май</h5>
+                            <p class="announcement-description">В ГТС при МЭФ КР состоялось торжественное собрание в честь 30-летия независимости страны</p>
+                            <a href="#" class="announcement-link">Подробнее</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/script.js"></script>
     <script src="dist/js/owl.carousel.js"></script>
