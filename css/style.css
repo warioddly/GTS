@@ -10,7 +10,7 @@
 body{
     /*background: #E8EBE6 !important;*/
     background: #E8EBE6 !important;
-    height: 1500px;
+    height: 2100px;
 }
 
 .container{
@@ -84,12 +84,7 @@ header .row:nth-child(1){
     max-width: 330px;
 }
 
-.information-for-people .col-4:last-child{
-    display: contents;
-}
-
 .information-for-people .header-text{
-    width: 320px;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
@@ -114,6 +109,10 @@ header .row:nth-child(1){
     text-transform: uppercase;
     color: #D8A57B;
 }
+.information-for-people > div > div:nth-child(3) > div, .information-for-people > div > div:nth-child(1) > div{
+    position: absolute;
+    bottom: 0;
+}
 
 .information-for-people > div:nth-child(3) > div > a{
     margin-top: 41px;
@@ -124,7 +123,7 @@ header .row:nth-child(1){
 }
 
 .online-services{
-    margin-top: 122px;
+    margin-top: 93px;
 }
 
 .online-services .card{
@@ -378,4 +377,150 @@ header .row:nth-child(1){
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.goverment-links .anthem img{
+    width: 80px !important;
+}
+
+.goverment-links img{
+    width: 48px !important;
+}
+
+.goverment-links-slider .item a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.goverment-links-slider .item p{
+    margin-top: 16px;
+    max-width: 144px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7B7B7B;
+}
+
+.goverment-links-slider .owl-dot{
+    outline: none;
+}
+
+.goverment-links-slider .owl-dot span{
+    background: #8ABAA3 !important;
+}
+
+.goverment-links-slider .owl-dot.active span{
+    background: #315F43 !important;
+}
+
+.line span{
+    margin-top: 72px;
+    width: 80%;
+    height: 1px;
+    background: #D9D9D9;
+}
+
+.useful-links{
+    margin: 56px 0 24px;
+}
+
+.useful-links .header-text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.useful-links ul{
+    list-style: none;
+    padding: 0;
+}
+
+.useful-links .address li{
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7B7B;
+}
+
+.useful-links li{
+    margin-bottom: 8px;
+}
+
+.useful-links li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7B7B;
 }
