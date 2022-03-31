@@ -15,7 +15,7 @@ $(function (){
         autoplay:true,
         autoplayTimeout: 4000,
         autoplayHoverPause: true,
-        items: 6,
+        items: 5,
         dotsEach: true,
     });
 })
