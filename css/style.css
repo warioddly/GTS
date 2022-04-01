@@ -542,25 +542,32 @@ header .row:nth-child(1){
 
         
 .map{
+    z-index: 2;
+    top: 15%;
     position: relative;
     text-align: center;
 }
 
 svg{
     position: absolute;
-    top: 0;
     left: 0px;
     height: 100%;
     width:  100%;
     
 }
 path{
-    opacity: .8;
     fill: #006b9900;
     cursor: pointer;
     transition: 0.6s;
 }
+
 path:hover{
-    opacity: 1;
-    fill: #003d616d;
+    fill: #003d616d ;
+}
+
+.background-map{
+    z-index: 1;
+    position: relative;
+    top: -50%;
+    left: 15%;
 }
