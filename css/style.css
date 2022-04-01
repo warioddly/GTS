@@ -540,6 +540,10 @@ header .row:nth-child(1){
     background: radial-gradient(73.24% 73.24% at 50% 50%, #1D374D 0%, #061A2B 100%);
 }
 
+.custom{
+    top: 15%;
+}
+
         
 .map{
     z-index: 2;
@@ -566,8 +570,8 @@ path:hover{
 }
 
 .background-map{
+    position: absolute;
     z-index: 1;
-    position: relative;
-    top: -50%;
-    left: 15%;
+    top: 5px;
+    left: -13px;
 }
