@@ -8,7 +8,6 @@
 }
 
 body{
-    /*background: #E8EBE6 !important;*/
     background: #E8EBE6 !important;
     height: 2100px;
 }
@@ -120,7 +119,7 @@ header .row:nth-child(1){
 }
 
 .online-services{
-    margin-top: 93px;
+    margin-top: 118px;
 }
 
 .online-services .card{
@@ -500,6 +499,7 @@ header .row:nth-child(1){
 
 .useful-links{
     margin: 56px 0 24px;
+    padding-bottom: 50px;
 }
 
 .useful-links .header-text{
@@ -538,4 +538,29 @@ header .row:nth-child(1){
     margin-top: 50px;
     height: 655px;
     background: radial-gradient(73.24% 73.24% at 50% 50%, #1D374D 0%, #061A2B 100%);
+}
+
+        
+.map{
+    position: relative;
+    text-align: center;
+}
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width:  100%;
+    
+}
+path{
+    opacity: .8;
+    fill: #006b9900;
+    cursor: pointer;
+    transition: 0.6s;
+}
+path:hover{
+    opacity: 1;
+    fill: #003d616d;
 }
