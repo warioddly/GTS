@@ -49,9 +49,6 @@ header .row:nth-child(1){
     line-height: 21px;
 }
 
-.communication span:nth-child(1){
-    margin-right: 16px;
-}
 
 .header_link-icons img{
     margin-left: 24px;
@@ -476,6 +473,10 @@ header .row:nth-child(1){
     display: flex !important;
 }
 
+.goverment-links-slider .owl-nav{
+    display: none !important;
+}
+
 .goverment-links-slider .owl-dot{
     outline: none !important;
 }
@@ -484,9 +485,7 @@ header .row:nth-child(1){
     background: #8ABAA3 !important;
 }
 
-.goverment-links-slider .owl-nav{
-    display: none !important;
-}
+
 
 .goverment-links-slider .owl-dot.active span{
     background: #315F43 !important;
