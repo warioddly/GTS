@@ -471,13 +471,21 @@ header .row:nth-child(1){
     color: #7B7B7B;
 }
 
-.goverment-links-slider .owl-dot{
+.goverment-links-slider .owl-dots{
+    justify-content: center;
     display: flex !important;
-    outline: none;
+}
+
+.goverment-links-slider .owl-dot{
+    outline: none !important;
 }
 
 .goverment-links-slider .owl-dot span{
     background: #8ABAA3 !important;
+}
+
+.goverment-links-slider .owl-nav{
+    display: none !important;
 }
 
 .goverment-links-slider .owl-dot.active span{
