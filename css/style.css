@@ -541,7 +541,16 @@ header .row:nth-child(1){
 }
 
 .custom{
-    top: 15%;
+    top: 18%;
+}
+
+.custom-control .head-text{
+    top: 32px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
 }
 
         

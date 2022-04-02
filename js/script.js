@@ -20,8 +20,13 @@ $(function (){
     });
 })
 
+$(function () {
+  $('[data-toggle="popover"]').popover({
+    container: 'body'
+  })
+})
 
-const data = {
+  const data = {
   labels: [""],
   datasets: [
     {
@@ -49,10 +54,10 @@ const data = {
       backgroundColor: '#A06B39',
     }
   ]
-};
+  };
 
-const ctx = document.getElementById('myChart').getContext('2d');
-const myChart = new Chart(ctx, {
+    const ctx = document.getElementById('myChart').getContext('2d');
+  const myChart = new Chart(ctx, {
   type: 'bar',
   data: data,
   options: {
