@@ -123,10 +123,39 @@ const data = {
 });
 
 
+const data1 = {
+  labels: [""],
+  datasets: [
+    {
+      categoryPercentage: 1.0,
+      barPercentage: 0.8,
+      borderRadius: 4,
+      label: 'Экспорт',
+      data: [50],
+      backgroundColor: '#1D3523',
+    },
+    {
+      categoryPercentage: 1.0,
+      barPercentage: 0.8,
+      borderRadius: 4,
+      label: 'Импорт',
+      data: [830],
+      backgroundColor: '#EDB16E',
+    },
+    {
+      categoryPercentage: 1.0,
+      barPercentage: 0.8,
+      borderRadius: 4,
+      label: 'ВТБ',
+      data: [180],
+      backgroundColor: '#A06B39',
+    }
+  ]
+  };
 const ctx2 = document.getElementById('myChart-2').getContext('2d');
 const myChar = new Chart(ctx2, {
 type: 'bar',
-data: data,
+data: data1,
 options: {
   responsive: true,
   plugins: {
@@ -148,7 +177,7 @@ options: {
     title: {
       color: '#000000',
       display: true,
-      text: 'Внешне-торговый оборот по третьим странам, тыс. тонн',
+      text: 'Импорт топ 5 стран в сравнении',
       font: {
         size: 20,
         family: 'Source Serif Pro',
