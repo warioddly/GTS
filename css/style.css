@@ -376,24 +376,186 @@ header .row:nth-child(1){
 }
 
 
+.custom-control{
+    margin-top: 50px;
+    height: 655px;
+    background: radial-gradient(73.24% 73.24% at 50% 50%, #1D374D 0%, #061A2B 100%);
+}
+
+.custom{
+    margin: 0 auto 0 40px !important;
+    top: 18%;
+}
+
+.custom-control .head-text{
+    top: 32px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+        
+.map{
+    user-select: none;
+    z-index: 2;
+    top: 15%;
+    position: relative;
+    text-align: center;
+}
+
+svg{
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width:  100%;
+    
+}
+path{
+    fill: #006b9900;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+path:hover{
+    fill: #003d616d ;
+}
+
+.background-map{
+    position: absolute;
+    z-index: 1;
+    top: 11px;
+    left: -13px;
+}
+
+.place{
+    z-index: 3;
+    position: absolute;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.place p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.place-bishkek{
+    left: 370px;
+    top: 30px
+}
+
+.place-talas{
+    left: 230px;
+    top: 50px
+}
+
+.place-naryn{
+    left: 500px;
+    top: 180px
+}
+
+.place-karakol{
+    left: 700px;
+    top: 60px
+}
+
+.place-osh{
+    left: 280px;
+    top: 290px
+}
+
+.place-j-abad{
+    left: 230px;
+    top: 210px
+}
+
+.place-batken{
+    left: 100px;
+    top: 320px
+}
+
+.second-place{
+    z-index: 3;
+    position: absolute;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.second-place p{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9E9E9E;
+}
+
+.place-kazakhstan{
+    left: 580px;
+    top: -30px
+}
+
+.place-uzbekistan{
+    left: -50px;
+    top: 250px
+}
+
+.place-tadjikistan{
+    left: -80px;
+    top: 430px
+}
+
+.place-china{
+    left: 580px;
+    top: 400px
+}
+
+.custom-card{
+    position: absolute;
+    right: -65px;
+    z-index: 4;
+    top: 170px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 24px 10px 10px 16px;
+    min-width: 232px;
+    max-width: 232px;
+}
+
+.cstm-card-body .body-header-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
 
 
+.cstm-card-body .values{
+    flex-wrap: wrap;
+    color: #7B7B7B;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.cstm-card-body p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #555555;
+}
 
 
 
@@ -533,54 +695,3 @@ header .row:nth-child(1){
     color: #7B7B7B;
 }
 
-
-.custom-control{
-    margin-top: 50px;
-    height: 655px;
-    background: radial-gradient(73.24% 73.24% at 50% 50%, #1D374D 0%, #061A2B 100%);
-}
-
-.custom{
-    top: 18%;
-}
-
-.custom-control .head-text{
-    top: 32px;
-    position: absolute;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    color: #FFFFFF;
-}
-
-        
-.map{
-    z-index: 2;
-    top: 15%;
-    position: relative;
-    text-align: center;
-}
-
-svg{
-    position: absolute;
-    left: 0px;
-    height: 100%;
-    width:  100%;
-    
-}
-path{
-    fill: #006b9900;
-    cursor: pointer;
-    transition: 0.6s;
-}
-
-path:hover{
-    fill: #003d616d ;
-}
-
-.background-map{
-    position: absolute;
-    z-index: 1;
-    top: 5px;
-    left: -13px;
-}

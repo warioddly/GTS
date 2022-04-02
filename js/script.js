@@ -18,6 +18,35 @@ $(function (){
         items: 6,
         dotsEach: true,
     });
+
+
+    $('.karakol').hover(function(event){
+      event.preventDefault();
+      let title = 'Северо-Восточная таможня';
+      let custom = 'Северо-Восточная таможня';
+      let transferType = 'Железнодорожная';
+      let webCamera = 'Посмотреть';
+      let customAdress = 'Кыргызская Республика, Чуйская область, Аламединский район, с. Нижняя Ала-Арча, переулок имени Курманалиева Д.Б.';
+      $('.body-header-text').text(title);
+      $('.type-value').text(transferType);
+      $('.web-value').text(webCamera);
+      $('.address-value').text(customAdress);
+      $('.custom-value').text(custom);
+    })
+
+    $('.bishkek').hover(function(){
+      let title = 'МПТП "Манас аэропорт"';
+      let custom = 'Таможня "Манас"';
+      let transferType = 'Авиа';
+      let webCamera = 'Посмотреть';
+      let customAdress = 'пункт пропуска «Манас аэропорт», Чуйская обл .Сокулукскийр-н, Международный аэропорт «Манас»';
+      $('.body-header-text').text(title);
+      $('.type-value').text(transferType);
+      $('.web-value').text(webCamera);
+      $('.address-value').text(customAdress);
+      $('.custom-value').text(custom);
+    })
+
 })
 
 $(function () {
