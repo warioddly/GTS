@@ -376,8 +376,65 @@ header .row:nth-child(1){
 }
 
 
+.chart-content{
+    background-color: #FFFFFF;
+}
+
+
+
+.charts{
+    position: relative;
+    width: 600px !important;
+}
+
+.charts .owl-nav{
+    display: none !important;
+}
+
+.chart-body{
+    position: relative;
+}
+
+.chart-content .owl-dots{
+    position: absolute;
+    width: 320px !important;
+    left: -428px;
+    top: 10px;
+}
+
+.charts .owl-dot{
+    text-align: initial;
+    display: block !important;
+}
+
+.charts .owl-dot button{
+    text-align: initial;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #7B7B7B;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.charts .owl-dot.active button{
+    text-align: initial;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D3523;
+    background: none;
+    outline: none;
+    border: none;
+}
+
 .custom-control{
-    margin-top: 50px;
     height: 655px;
     background: radial-gradient(73.24% 73.24% at 50% 50%, #1D374D 0%, #061A2B 100%);
 }
@@ -395,7 +452,6 @@ header .row:nth-child(1){
     line-height: 40px;
     color: #FFFFFF;
 }
-
         
 .map{
     user-select: none;
@@ -516,14 +572,14 @@ path:hover{
 
 .custom-card{
     position: absolute;
-    right: -65px;
+    right: -68px;
     z-index: 4;
     top: 170px;
     background: #FFFFFF;
     border-radius: 4px;
     padding: 24px 10px 10px 16px;
-    min-width: 232px;
-    max-width: 232px;
+    min-width: 267px;
+    max-width: 267px;
 }
 
 .cstm-card-body .body-header-text{
@@ -556,55 +612,6 @@ path:hover{
     align-items: center;
     color: #555555;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .goverment-links .anthem img{
     width: 80px !important;
@@ -645,8 +652,6 @@ path:hover{
 .goverment-links-slider .owl-dot span{
     background: #8ABAA3 !important;
 }
-
-
 
 .goverment-links-slider .owl-dot.active span{
     background: #315F43 !important;
@@ -695,3 +700,6 @@ path:hover{
     color: #7B7B7B;
 }
 
+.social a{
+    text-decoration: none !important;
+}

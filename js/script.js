@@ -19,6 +19,13 @@ $(function (){
         dotsEach: true,
     });
 
+    $('.charts').owlCarousel({
+      loop:true,
+      nav: true,
+      dotsData: true,
+      items:1,
+  })
+
 
     $('.karakol').hover(function(event){
       event.preventDefault();
@@ -47,15 +54,9 @@ $(function (){
       $('.custom-value').text(custom);
     })
 
-})
+});
 
-$(function () {
-  $('[data-toggle="popover"]').popover({
-    container: 'body'
-  })
-})
-
-  const data = {
+const data = {
   labels: [""],
   datasets: [
     {
@@ -85,7 +86,7 @@ $(function () {
   ]
   };
 
-    const ctx = document.getElementById('myChart').getContext('2d');
+  const ctx = document.getElementById('myChart').getContext('2d');
   const myChart = new Chart(ctx, {
   type: 'bar',
   data: data,
@@ -119,4 +120,41 @@ $(function () {
       },
     }
   },
+});
+
+
+const ctx2 = document.getElementById('myChart-2').getContext('2d');
+const myChar = new Chart(ctx2, {
+type: 'bar',
+data: data,
+options: {
+  responsive: true,
+  plugins: {
+    legend: {
+      labels: {
+        color: '#7B7B7B',
+        usePointStyle: true,
+        font: {
+          size: 16,
+          family: 'Source Serif Pro',
+          style: 'italic',
+          lineHeight: 24,
+        }
+      },
+      minWidth: 20,
+      align: 'start',
+      position: 'bottom',
+    },
+    title: {
+      color: '#000000',
+      display: true,
+      text: 'Внешне-торговый оборот по третьим странам, тыс. тонн',
+      font: {
+        size: 20,
+        family: 'Source Serif Pro',
+        style: 'normal;',
+      }
+    },
+  }
+},
 });

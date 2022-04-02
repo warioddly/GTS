@@ -209,13 +209,28 @@
                 </div>
             </div>
         </section>
-        <section class="chart-content mt-5" id="chart-content">
+        <section class="chart-content pt-5 mt-5 pb-5" id="chart-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col">
+                        <div class="row">
+                            <h5 class="head-text">Статистика</h5>
+                        </div>
                     </div>
-                    <div class="col-8 pr-0">
-                        <canvas id="myChart"></canvas>
+                </div>
+                <div class="row">
+                    <div class="col p-0 d-flex justify-content-end chart-body">
+                        <div class="owl-carousel charts owl-theme">
+                        <div class="item" data-dot="<button>Внешне-торговый оборот по третьим странам, тыс. тонн</button>">
+                            <div class="chart-container" style="position: relative; height:400px; width:600px">
+                                <canvas id="myChart" height="200px"></canvas>
+                            </div>
+                        </div>
+                        <div class="item" data-dot="<button>Импорт топ 5 стран в сравнении</button>">
+                            <div class="chart-container" style="position: relative; height:300px; width:600px">
+                                <canvas id="myChart-2" height="200px"></canvas>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
