@@ -54,6 +54,10 @@ $(function (){
       $('.custom-value').text(custom);
     })
 
+    $('.custom').click(function() {
+      $(this).toggleClass('active', 12300);
+    });
+
 });
 
 const data = {

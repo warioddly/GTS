@@ -225,3 +225,137 @@ header .row:nth-child(1){
 .social a{
     text-decoration: none !important;
 }
+
+
+
+
+/* Leadership */
+
+
+
+.leadership{
+    padding: 24px 19px 28px;
+    border: 1px solid #B6D5C6;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.leadership .image{
+    object-fit: cover;
+    width: 121px;
+    height: 121px;
+}
+
+.leadership .name{
+    margin: 0 0 4px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.leadership .position{
+    margin: 0 0 4px 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.leadership .phone{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.leadership .schedule{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.custom{
+    overflow: hidden;
+    max-height: 64px;
+    padding: 16px 24px;
+    border: 1px solid #B6D5C6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    -webkit-transition: max-height 1s;
+	-moz-transition: max-height 1s;
+	transition: max-height 1s;
+}
+
+.custom.active{
+    overflow: hidden;
+    max-height: 1500px;
+    padding: 16px 24px;
+    border: 1px solid #B6D5C6;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.custom .custom-name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #262626;
+}
+
+.custom .arrow{
+    -webkit-transition: max-height 1s;
+	-moz-transition: max-height 1s;
+	transition: transform 1s;
+    transform: rotate(0deg);
+}
+
+.custom.active .arrow{
+    transform: rotate(180deg);
+}
+
+.custom .image{
+    object-fit: cover;
+    width: 121px;
+    height: 121px;
+}
+
+.custom .name{
+    margin: 0 0 4px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.custom .position{
+    margin: 0 0 4px 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.custom .phone{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.custom .schedule{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #262626;
+}
