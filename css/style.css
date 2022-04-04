@@ -64,11 +64,114 @@ header .row:nth-child(1){
 }
 
 .navigation ul .nav-item-link{
+    padding: 10px 0;
+    text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    -webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
 }
+
+.navigation ul .nav-item-link:hover{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B6D5C6;
+}
+
+
+.navigation ul li.drop {
+	position: relative;
+}
+
+.navigation ul > li {
+	display: inline-block;
+}
+
+.navigation .dropOut .triangle {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid white;
+	top: -8px;
+	margin-left: -8px;
+}
+
+.navigation .dropdownContain {
+	width: 200px;
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	top: -1400px;
+}
+
+.navigation > div > ul > li:nth-child(1) > div > div > div {
+	left: 11%;
+	margin-left: -8px;
+}
+
+.navigation > div > ul > li:nth-child(2) > div > div > div {
+	left: 24%;
+	margin-left: -8px;
+}
+
+.navigation > div > ul > li:nth-child(1) > .dropdownContain{
+	margin-left: -28px;
+}
+
+.navigation > div > ul > li:nth-child(2) > .dropdownContain{
+	margin-left: -68px;
+}
+
+.navigation .dropOut {
+	width: 269px;
+    padding: 8px 16px 8px 16px;
+	background: white;
+	float: left;
+	position: relative;
+	margin-top: 0px;
+	opacity: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+	-moz-box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+}
+
+.navigation .dropOut ul {
+	float: left;
+	padding: 10px 0;
+}
+
+.navigation .dropOut ul li {
+	text-align: left;
+	float: left;
+	margin: 4px 30px 4px 0;
+}
+
+.navigation .drop > div > div > ul > li > a{ 
+    color: #262626;
+}
+
+.navigation  .dropOut ul li:hover a:hover { 
+    color: #4C8D6C;
+}
+.navigation ul li:hover .dropdownContain { top: 25px; }
+.navigation ul li:hover .underline { border-bottom-color: #777; }
+.navigation ul li:hover .dropOut { opacity: 1; margin-top: 8px; }
 
 .information-for-people{
     position: relative;

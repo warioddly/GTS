@@ -58,6 +58,19 @@ $(function (){
       $(this).toggleClass('active', 12300);
     });
 
+    $('.changeLanguage').click(function(){
+      $('.brand').animate({
+        opacity: 0,
+        display: 'none',
+      }, 300)
+
+      
+      $('.languages').animate({
+         left: -715,
+         
+      }, 1000);
+    });
+
 });
 
 const data = {
