@@ -15,27 +15,52 @@
         <div class="header-background"></div>
         <div class="container">
             <div class="row banner">
-                <div class="col-7 p-0 d-flex align-items-center brand">
+                <div class="col-7 p-0 align-items-center brand" style="display: flex">
                     <img  class="brand-logo" src="images/logo/gts_logo.svg" alt="">
                     <span class="brand-name">Государственная таможенная служба</span>
                 </div>
                 <div class="col p-0 communication d-flex align-items-center justify-content-end">
-                        <!-- <div class="">
-                            <span class="communication-phone">+996 0777 77 71 60</span>
+                         <div class="communication_data">
+                            <span class="communication-phone mr-3">+996 0777 77 71 60</span>
                             <span class="communication-email">doverie@customs.gov.kg</span>
-                        </div> -->
-                        <div>
-                            <ul class="d-flex languages" style="position: relative; animation-timing-function: cubic-bezier(.59,.31,.24,.86);">
-                                <li><a href="#">Кыргызча</a></li>
-                                <li><a href="#">Русский</a></li>
-                                <li><a href="#">English</a></li>
-                            </ul>
                         </div>
-                        <div class="header_link-icons d-flex">
+                        <div>
+                            <ul class="languages" style="left: -573px;padding-top: 3px;display: none; position: relative; animation-timing-function: cubic-bezier(.59,.31,.24,.86);opacity: 0">
+                                <li><a href="#" class="d-flex align-items-center">
+                                    <img class="mr-2" src="images/logo/goverments-logo/anthem.svg" width="36" height="21" alt="">
+                                    Кыргызча</a></li>
+                                <li><a href="#" class="d-flex align-items-center">
+                                    <img class="mr-2" src="images/logo/goverments-logo/russia.svg" width="36" height="21" alt="">
+                                    Русский</a></li>
+                                <li><a href="#" class="d-flex align-items-center">
+                                    <img class="mr-2" src="images/logo/goverments-logo/usa.svg" width="36" height="21" alt="">
+                                    English</a></li>
+                            </ul>
+                            <div class="search mr-4" style="width: 100%;display: none; opacity: 0">
+                                <form action="" method="post" class="d-flex search-form" >
+                                    <label><input class="search-input" type="search" placeholder="Поиск по сайту..."></label>
+                                    <div class="d-flex" style="width: 100%;">
+                                        <ul>
+                                            <li><a href="#">ГТС</a></li>
+                                            <li><a href="#">Таможня</a></li>
+                                            <li><a href="#">Контрабанда</a></li>
+                                            <li><a href="#">НПА</a></li>
+                                            <li><a href="#">Статистика</a></li>
+                                        </ul>
+                                        <button class="d-flex align-items-center" type="submit"><img src="images/search-btn.svg" alt=""></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="header_link-icons" style="display: flex">
                             <img src="images/icons/column-icon.svg" alt="">
                             <img class="changeLanguage" src="images/icons/earth-icon.svg" alt="">
-                            <img src="images/icons/search-icon.svg" alt="">
+                            <img class="searchBtn" src="images/icons/search-icon.svg" alt="">
                         </div>
+                        <div>
+                        <img class="close-btn-language" src="images/close_btn.svg" width="23" height="23" alt="" style="display: none; opacity: 0">
+                        <img class="close-btn-search" src="images/close_btn.svg" width="23" height="23" alt="" style="display: none; opacity: 0">
+                    </div>
                 </div>
             </div>
             <div class="row navigation">
@@ -178,6 +203,7 @@
             </div>
         </div>
     </header>
+
 
     <main>
         <section id="news-content" class="news-content">

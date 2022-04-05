@@ -59,17 +59,84 @@ $(function (){
     });
 
     $('.changeLanguage').click(function(){
+          $('.communication_data').animate({
+            opacity: 0,
+          }, 100).css("display", 'none')
+
+          $('.brand').animate({
+            opacity: 0,
+          }, 300).css("display", 'none')
+
+          $('.languages').animate({
+            opacity: 1,
+          }, 600).css("display", 'flex');
+
+          $('.header_link-icons').css("display", 'none');
+
+          $('.close-btn-language').animate({
+            opacity: 1,
+          }, 500).css("display", 'flex');
+    });
+
+    $('.close-btn-language').click(function (){
+        $('.close-btn-language').animate({
+          opacity: 0,
+        }, 200).css("display", 'none');
+
+        $('.header_link-icons').css("display", 'flex');
+
+        $('.languages').animate({
+          opacity: 0,
+        }, 400).css("display", 'none');
+
+        $('.brand').animate({
+          opacity: 1,
+        }, 200).css("display", 'flex')
+
+        $('.communication_data').animate({
+          opacity: 1,
+        }, 100).css("display", 'flex')
+    })
+
+    $('.searchBtn').click(function(){
+      $('.communication_data').animate({
+        opacity: 0,
+      }, 100).css("display", 'none')
+
       $('.brand').animate({
         opacity: 0,
-        display: 'none',
-      }, 300)
+      }, 300).css("display", 'none')
 
-      
-      $('.languages').animate({
-         left: -715,
-         
-      }, 1000);
-    });
+      $('.search').animate({
+        opacity: 1,
+      }, 600).css("display", 'flex');
+
+      $('.header_link-icons').css("display", 'none');
+
+      $('.close-btn-search').animate({
+        opacity: 1,
+      }, 500).css("display", 'flex');
+  });
+
+    $('.close-btn-search').click(function (){
+    $('.close-btn-search').animate({
+      opacity: 0,
+    }, 200).css("display", 'none');
+
+    $('.header_link-icons').css("display", 'flex');
+
+    $('.search').animate({
+      opacity: 0,
+    }, 400).css("display", 'none');
+
+    $('.brand').animate({
+      opacity: 1,
+    }, 200).css("display", 'flex')
+
+    $('.communication_data').animate({
+      opacity: 1,
+    }, 100).css("display", 'flex')
+  })
 
 });
 
@@ -132,7 +199,7 @@ const data = {
         font: {
           size: 20,
           family: 'Source Serif Pro',
-          style: 'normal;',
+          style: 'normal',
         }
       },
     }
@@ -198,7 +265,7 @@ options: {
       font: {
         size: 20,
         family: 'Source Serif Pro',
-        style: 'normal;',
+        style: 'normal',
       }
     },
   }
